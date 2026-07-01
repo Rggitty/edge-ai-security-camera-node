@@ -1,0 +1,3 @@
+mode,duration_ms,avg_current_mA,avg_power_mW,peak_current_mA,peak_power_mW,min_voltage_V,energy_mWh,ai_decision,best_label,person_score,no_person_score,ai_confidence,inference_ms,capture_us,frame_bytes
+idle,30090,102.498,510.267,104.7,521.198,4.974,4.250521,,,,,,,,
+event,17927,101.552,505.273,104.7,521.188,4.972,2.501803,PERSON_DETECTED,person,0.90872,0.09128,0.90872,7824,2487,18432

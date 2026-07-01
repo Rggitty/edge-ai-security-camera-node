@@ -1,0 +1,40 @@
+# Private images / datasets
+/private_ai_camera_dataset/
+edge_ai_camera_dataset/
+dataset/
+person/
+no_person/
+*.jpg
+*.jpeg
+*.png
+captures/
+images/
+
+# Allow public project figures
+!Figures/
+!Figures/*.png
+
+# But allow public project media
+!Media/
+!Media/*.jpg
+!Media/*.jpeg
+!Media/*.png
+
+# Wi-Fi / secrets
+secrets.h
+wifi_config.h
+
+# Arduino build outputs
+build/
+*.bin
+*.elf
+*.map
+*.hex
+
+# Local/IDE files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Part of Archives
+analysis/*.xlsx
